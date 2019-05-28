@@ -29,19 +29,20 @@ a:active{star:expression(this.onFocus=this.blur());}
 
 /*---------------    首页样式 ----------------*/
 .wrap{ width:1280px; height:auto; margin:0 auto;}
-.top{ background:#fff url(../images/top.png) no-repeat; width:1000px; height:135px; margin:0 auto;}
+/*.top{ background:#fff url(../images/top.jpg) no-repeat; width:1000px; height:135px; margin:0 auto;}*/
+.top img{width: 100%;height: 200px ;}
 .top p{ text-align:right; padding:70px 15px 0 0; color:#858585;}
 .top p a{ color:#858585; margin:0 5px;}
-.menu{ width:auto; height:71px; background:url(../images/nav.png) repeat-x;}
+.menu{ width:auto; height:71px; background: #5ec583;}
 .nav{ width:1000px; line-height:71px; margin:0 auto; font-size:16px;}
 .nav li{ float:left;  background:url(../images/nav_li.png) right center no-repeat; text-align:center; width:120px; padding:0 10px; display:inline;}
 .nav li a{ color:#fff;}
 .nav li.li_hover a,.nav li a:hover{ background:url(../images/nav_hover.png) bottom center  no-repeat; display:block;}
 
-.banner{ width:100%; height:480px; margin:0 auto;}
-#slider{width:100%;height:480px;overflow:hidden;position:relative;}
+.banner{ width:100%; height:380px; margin:0 auto;}
+#slider{width:100%;height:390px;overflow:hidden;position:relative;}
 #slider li a{width:100%;height:480px;float:left;}
-#naviSlider{width:160px;height:20px;position:absolute;top:650px;left:50%;margin:0 0 0 -75px;z-index:99;}
+#naviSlider{width:160px;height:20px;position:absolute;top:620px;left:50%;margin:0 0 0 -75px;z-index:99;}
 #naviSlider li{width:13px;height:13px;background:url(../images/on.png) no-repeat 0 0;float:left;margin-right:20px;}
 #naviSlider li.on{width:13px;height:13px;background:url(../images/on_hover.png) no-repeat;}
 
@@ -58,7 +59,7 @@ a:active{star:expression(this.onFocus=this.blur());}
 .dtcon li{ height:25px; line-height:25px; background:url(../images/point.png) 3px center no-repeat; text-indent:15px;}
 .rq{ float:right; font-size:12px;}
 
-.lxcon{ background:url(../images/lxtp.png) bottom  right no-repeat ; padding:10px 0 0 0; line-height:30px; overflow:hidden;}
+.lxcon{  padding:10px 0 0 0; line-height:30px; overflow:hidden;}
 .cpcon{ padding:15px 0 25px 0; overflow:hidden;}
 .cpcon li{ background:url(../images/cp_bg.png) no-repeat; width:238px; height:262px; float:left; margin:0 6px; text-align:center;}
 .cpcon li img{ vertical-align:middle; margin-top:10px; width:218px; height:231px;}
